@@ -1,6 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&family=Squada+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&family=Squada+One&display=swap');
 
 
 body {
@@ -11,6 +11,14 @@ body {
 * {
     box-sizing: border-box;
     margin: 0;
+}
+
+.container {
+    padding: 2% 15%;
+}
+
+span {
+    font-weight: bold;
 }
 
 #head {
@@ -35,7 +43,7 @@ body {
 .mini {
     color: #fff;
     /* font-family: 'Open Sans', sans-serif; */
-    font-size: 2rem;
+    font-size: 1.2rem;
     text-align: center;
     margin: auto;
     font-weight: 300;
@@ -44,11 +52,21 @@ body {
 
 h1 {
     color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 5rem;
+    font-size: 3rem;
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #000;
+}
+
+h6 {
+    font-weight: bold;
+    padding-bottom: 0;
 }
 
 button {
@@ -58,34 +76,132 @@ button {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    /* width: 150px;
-    height: 20px;
-    border:none;
+    width: 150px;
+    height: 50px;
     border:solid 2px white;
     border-radius: 5px;
     background: rgba(255, 255, 255,0);
-    font-size: 15px; */
+    font-size: 15px;
 }
 
-h2 {
-    font-family: 'Roboto', sans-serif;
+#webdev {
+    padding: 2rem;
 }
+
+.develop {
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+.small-para {
+    font-size: 0.75rem;
+}
+
 
 #branding {
+    padding: 3rem;
     background-color: #F7F7F7;
+}
+
+#services {
+    padding: 2.5rem;
+}
+
+.identity {
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.icons {
+    padding-top: 25px !important;
+    padding-right: 5px !important;
+}
+
+.card {
+    border: none;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 #clients {
     background-color: #F7F7F7;
 }
 
+.img-txt {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-txt img {
+    width: 45%;
+}
+
+.rounded-img {
+    width: 15%;
+    margin: 20px;
+    border-radius: 50%;
+    border: 4px solid white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.awe {
+    text-align: center;
+    padding: 4rem;
+}
+
+.awesome-txt {
+    background-color: #fff;
+    padding: 5rem;
+    columns: #f7f7f7;
+    width: 700px;
+    height: 200px;
+
+}
+
 #press {
     background-color: #fff;
     text-align: center;
-    padding: 3px;
+    padding: 8px;
 }
 
 .press-logo {
-    width: 15%;
-    margin: 15px 10px 50px;
+    width: 13%;
+    margin: 30px 10px 20px 30px;
 }
+
+#amazing {
+    background-color: #222;
+}
+
+.pix {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.amaze-content {
+    text-align: center;
+    padding: 4rem 0 0 0;
+    color: grey;
+}
+
+.Amaze {
+    color: #fff;
+}
+
+.same-info {
+    padding-top: 0;
+    font-size: 0.85rem;
+}
+
+.team-member {
+    border-radius: 50%;
+    padding: 1px;
+    border: 5px solid white;
+}
+
+.img-group img {
+    width: 70%;
+}
+
